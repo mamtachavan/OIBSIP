@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lemonada');
+body
+{
+    background-color:whitesmoke;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%
+
+}
+
+div{
+	display: block;
+	width: 400px;
+	margin: auto;
+}
+
+h1{
+	text-align: center;
+	color: rgb(128,0,128);
+	 font-family: 'Lemonada', cursive !important; 
+     color: rgb(0,128,128);
+     text-decoration:antiquewhite;
+    /* font-family: "Times New Roman", Times, serif; */
+    /* font-family: "Lucida Console", "Courier New", monospace; */
+	text-transform: uppercase;
+    
+}
+
+ul{
+	margin:0;
+	padding: 0;
+}
+
+#completed-tasks span{
+	text-decoration: line-through;
+	font-size: 1.2em !important;
+}
